@@ -100,6 +100,3 @@ Pero primero de todo:
 2. Ejecuta `npm start`
 3. Accede a `http://localhost:3000` en tu navegador
 
-#### ACCESO A LA PÁGINA DE ESTE CÓDIGO EN GITHUB
-
-Puedes ver este código corriendo en el siguiente [enlace]([test](https://midnith.github.io/marvel-characters-app/)) 
