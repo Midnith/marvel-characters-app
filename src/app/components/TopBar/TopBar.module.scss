@@ -1,0 +1,22 @@
+.topbar {
+    background-color: var(--marvel-primary-color);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem 3rem;
+
+    .logo {
+        svg {
+        width: 8.125rem;
+        height: auto;
+        }
+    }
+
+    .favourites {
+        color: var(--marvel-white-color);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}

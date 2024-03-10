@@ -1,0 +1,34 @@
+.search-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    .search {
+        display: flex;
+        gap: 0.75rem;
+        padding-bottom: 0.7188rem;
+        border-bottom: 1px solid var(--marvel-primary-color);
+
+        svg {
+            width: 1rem;
+            height: 1rem;
+        }
+
+        input {
+            all: unset;
+            width: 100%;
+            border: none;
+            text-transform: uppercase;
+
+            &::placeholder {
+                font-family: "Marvel";
+            }
+        }
+    }
+
+    .results {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,26 @@
+.comic-card {
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    width: 11.2rem;
+
+    .thumbnail {
+        width: inherit;
+        height: 16.8rem;
+        padding-bottom: 0.25px;
+        
+        > img {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+        }
+    }
+
+    .title {
+        font-weight: 600;
+    }
+
+    .year {
+        font-size: .75rem;
+    }
+}
