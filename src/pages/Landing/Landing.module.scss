@@ -1,0 +1,26 @@
+.landing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    opacity: 0;
+
+    .title {
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 1.5rem;
+    }
+
+    .search-bar {
+        padding-bottom: 0.75rem;
+    }
+
+    .characters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1.5rem 0;
+        width: fit-content;
+    }
+}

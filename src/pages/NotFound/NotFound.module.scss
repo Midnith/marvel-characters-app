@@ -1,0 +1,29 @@
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--marvel-primary-color);
+    color: var(--marvel-white-color);
+    height: calc(100vh - 5.5rem);
+    width: 100%;
+    overflow: hidden;
+    
+    .message {
+        background-color: var(--marvel-secondary-color);
+        padding: 0 0.25rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 5rem;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-bottom: 1.5rem solid var(--marvel-primary-color);
+            border-left: 1.5rem solid transparent;
+            width: 0;
+        }
+    }
+}
