@@ -77,14 +77,15 @@ Una vez lanzando el comando podremos ver la aplicación en nuestro navegador en 
 
 -  http://localhost:3000
 -  http://localhost:<numero_de_puerto>
+
 -  http://192.168.1.128:3000
 -  http://192.168.1.128:<numero_de_puerto>
 
 ### MODO DE DESARROLLO
 
-Si queremos ejecutar la versión de desarrollo, teniendo en cuentra que nos encontramos dentro de la partea de la aplicación. Tenemos dos opciones, usando yarn o npm.
+Si queremos ejecutar la versión de desarrollo, teniendo en cuentra que nos encontramos dentro de la partea de la aplicación, tenemos dos opciones, usando yarn o npm.
 
-Pero primero de todo:
+Pero primero de todo, si no lo hemos hecho antes:
 
 - **Reemplazar el nombre del fichero `env.sample` a `.env`**
 
