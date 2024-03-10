@@ -12,7 +12,7 @@
 
     Si se quisiera probar con otras keys, o estas hubieran excedido el límite de fetch diarios por alguna razón, habría que realizar lo siguiente:
 
-  1. Abrir el fichero .env
+  1. Abrir el fichero `.env`
   2. Reemplazar el valor de `REACT_APP_API_KEY` por la "public key" deseada.
   3. Reemplazar el valor de `REACT_APP_API_PRIVATE_KEY` por la "private key" deseada.
   4. Generar la nueva "build" de producción, si se desea utilizar esta en lugar de la de desarrollo, con el comando `npm run build` dentro de la carpeta de la aplicación.
@@ -35,7 +35,7 @@ La aplicación se desglosa en las siguientes carpetas:
          -  *Componente.interface.ts*: Las interfaces y tipos del componente, en caso necesario
          -  *Componente.module.scss*: El estilo del componente, en caso necesario
          -  *Componente.spec.tsx*: Los test del componente
-         -  *index.ts*: Estos ficheros se han utilizado para una correcta indexación de los elementos y evidar imports con paths muy largos y poco legibles
+         -  *index.ts*: Estos ficheros se han utilizado para una correcta indexación de los elementos y evitar imports con paths muy largos y poco legibles
   
       -  **context**: Aquí se encuentra el ContextAPI para gestionar estados de la aplicación
       -  **data/mock**: Aquí hay un par de JSON mock utilizados para los tests
