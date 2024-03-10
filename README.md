@@ -8,9 +8,7 @@
 
 - Hay que reemplazar el nombre del fichero `env.sample` a `.env` para probar la versión de desarrollo
 
-- Hay introducida una "key" y "private key" de la API de Marvel en el código
-
-    Si se quisiera probar con otras keys, o estas hubieran excedido el límite de fetch diarios por alguna razón, habría que realizar lo siguiente:
+- Hay que introducir una "key" y "private key" de la API de Marvel en el código de desarrollo si se desea probar y habría que realizar lo siguiente:
 
   1. Abrir el fichero `.env`
   2. Reemplazar el valor de `REACT_APP_API_KEY` por la "public key" deseada.
@@ -87,7 +85,7 @@ Si queremos ejecutar la versión de desarrollo, teniendo en cuentra que nos enco
 
 Pero primero de todo, si no lo hemos hecho antes:
 
-- **Reemplazar el nombre del fichero `env.sample` a `.env`**
+- **Reemplazar el nombre del fichero `env.sample` a `.env`** y poner nuestra "key" y "private key" de Marvel
 
 ###### YARN
 
