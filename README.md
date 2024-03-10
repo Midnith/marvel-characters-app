@@ -51,7 +51,7 @@ La aplicación se desglosa en las siguientes carpetas:
       -  **NotFound**: Cualquier otro path que no sea uno de los dos anteriores nos llevará ha esta página de "No encontrado"
   
    -  **index.tsx**: Este es el único index que no actúa como indexador, ya que aquí es dónde se encuentra la App.
-   -  **indexx.scss**: Variables generales para todo el proyecto. Hay algunas normalizaciones de algunos componentes utilizados, las variables para los colores y la tipografia.
+   -  **index.scss**: Estilos generales para todo el proyecto. Hay algunas normalizaciones de algunos componentes utilizados, las variables para los colores y la tipografia.
    -  **env.ts** y **config.ts**: Para el uso en la aplicación de las variables de entorno de .env
 
 -  Otros ficheros/carpetas de configuración
