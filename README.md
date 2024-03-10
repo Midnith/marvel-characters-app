@@ -8,7 +8,7 @@
 
 - Hay que reemplazar el nombre del fichero `env.sample` a `.env` para probar la versión de desarrollo
 
-- Hay introducida una "key" y "private key" de la API de Marvel en el código, ya que quería subir la página a Github y que funcionara correctamente.
+- Hay introducida una "key" y "private key" de la API de Marvel en el código
 
     Si se quisiera probar con otras keys, o estas hubieran excedido el límite de fetch diarios por alguna razón, habría que realizar lo siguiente:
 
