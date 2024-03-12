@@ -86,6 +86,10 @@ Si queremos ejecutar la versión de desarrollo, teniendo en cuentra que nos enco
 Pero primero de todo, si no lo hemos hecho antes:
 
 - **Reemplazar el nombre del fichero `env.sample` a `.env`** y poner nuestra "key" y "private key" de Marvel
+- Para usar los mismos archivos de configuración: quitar el ".sample" de estos ficheros y añadir el punto delante del nombre para hacerlos ocultos. Esto es:
+  -   Cambiar `vscode.sample` por `.vscode`
+  -   Cambiar `eslintrc.sample.json` por `.eslintrc.json`
+  -   Cambiar `prettierrc.sample` por `.prettierrc`
 
 ###### YARN
 
