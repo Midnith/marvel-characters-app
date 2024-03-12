@@ -12,8 +12,6 @@ export const Landing: React.FC = (): JSX.Element => {
   const { isLoading } = useContext(AppContext);
   const refTitle = useRef<HTMLDivElement>(null);
   const refLanding = useRef<HTMLDivElement>(null);
-  const refCharacters = useRef<HTMLDivElement>(null);
-  useLoadingTransition(refLanding, 'opacity');
   useLoadingTransition(refLanding, 'opacity');
   useTitleVisibility(refTitle);
   const displayCharacters = useDisplayCharacters();
@@ -34,11 +32,7 @@ export const Landing: React.FC = (): JSX.Element => {
           Favourites
         </h1>
         <SearchBar className={styles['search-bar']} />
-        <div
-          className={styles.characters}
-          data-testid="landing-characters"
-          ref={refCharacters}
-        >
+        <div className={styles.characters} data-testid="landing-characters">
           {displayCharacters?.map((character: any) => (
             <CharacterCard
               key={`card-${String(character.id)}`}
